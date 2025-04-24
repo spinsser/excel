@@ -23,7 +23,7 @@ markets = stock_df['السوق'].unique()
 
 
 if __name__ == "__main__":
-    st.header('Stock Analyzer v0.01')
+    st.header('Stock Analyzer v0.02')
     st.divider()
     options = st.multiselect(
     "Choose the market",
