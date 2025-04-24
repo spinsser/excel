@@ -37,7 +37,8 @@ if __name__ == "__main__":
     st.dataframe(filtered_df,
                 hide_index=True,
                 column_config={
-                    "السعر": None
+                    "السعر": None,
+                    "رمز الشركة": st.column_config.Column(pinned=True),
 
                 })
 
