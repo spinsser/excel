@@ -39,6 +39,7 @@ if __name__ == "__main__":
                 column_config={
                     "السعر": None,
                     "رمز الشركة": st.column_config.Column(pinned=True),
+                    "اسم الشركة": st.column_config.Column(pinned=True),
 
                 })
 
